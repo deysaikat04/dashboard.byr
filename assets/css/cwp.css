@@ -1,0 +1,79 @@
+.login_logo_wrapper {
+    text-align: center; 
+    margin: 10px; 
+    padding: 20px;
+    display: inline-block;
+}
+.login_logo {
+    height: 100px;
+}
+.navbar-brand h3.dashboard_logo_text {
+    font-size: 14px;
+    color: aliceblue;
+    margin: 0px;
+}
+.dashboard_wrapper {
+    height: 100vh;
+}
+.alert_wrapper {
+    display: flex;
+    align-items: center;
+}
+.alert_wrapper P {
+    margin: 0;
+}
+.navigation>li.active>a, .navigation>li.active>a:focus, .navigation>li.active>a:hover {
+	    background-color: #fd4d4a;
+}
+.text-muted {
+    color: #fbf8f8 !important;
+}
+.login-container .page-container {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/2.jpg);*/
+	/*background: radial-gradient(circle at 53% 76%,#af3d58,#771451) !important;*/
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #ecad40);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+/*
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+*/
